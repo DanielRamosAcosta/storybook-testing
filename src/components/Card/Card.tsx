@@ -18,14 +18,8 @@ export type CardProps = {
 
 export const Card = ({ title, description, image }: CardProps) => (
   <div className={classNames(styles.base)}>
-    {image && (
-      <img src={image} alt={title} />
-    )}
-    <h2>
-      {title}
-    </h2>
-    <p>
-      {description}
-    </p>
+    {image && <img src={image} alt={title} />}
+    <h2>{title}</h2>
+    <p>{description}</p>
   </div>
 );
