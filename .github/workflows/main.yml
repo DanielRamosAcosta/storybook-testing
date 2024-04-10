@@ -3,6 +3,8 @@ name: Tests
 on:
   push:
     branches: ["main"]
+  pull_request:
+    branches: ["main"]
 
 jobs:
   build:
@@ -15,3 +17,6 @@ jobs:
       - run: npm run format:check
       - run: npm run lint
       - run: npm run build
+      - uses: chromaui/action@latest
+        with:
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
