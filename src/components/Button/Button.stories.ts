@@ -1,9 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react";
 import { fn } from "@storybook/test";
-import { Button } from "./Button";
+import { Button } from "./Button.tsx";
 
 const meta = {
-  title: "Nextjs/Button",
+  title: "Form/Button",
   component: Button,
   tags: ["autodocs"],
   argTypes: {},

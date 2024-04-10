@@ -18,6 +18,6 @@ export type ButtonProps = {
 
 export const Button = ({ title, type = "primary", onClick }: ButtonProps) => (
   <button className={classNames(styles.base, styles[type])} onClick={onClick}>
-    {title} test
+    {title}
   </button>
 );
