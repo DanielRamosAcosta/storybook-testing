@@ -16,7 +16,7 @@ module.exports = {
       { allowConstantExport: true },
     ],
     "@typescript-eslint/no-unused-vars": "warn",
-    "storybook/default-exports": "warn",
+    "storybook/default-exports": "off",
     "storybook/story-exports": "warn",
   },
 };
