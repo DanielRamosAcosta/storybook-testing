@@ -31,7 +31,7 @@ export const WithImage: Story = {
     title: "Built-in Optimizations",
     description:
       "Automatic Image, Font, and Script Optimizations for improved UX and Core Web Vitals.",
-    image: "https://hackmd.io/_uploads/ByQjwPVe0.png",
+    image: "https://i.imgur.com/CVbmc2d.png",
   },
   parameters: {
     design: {
