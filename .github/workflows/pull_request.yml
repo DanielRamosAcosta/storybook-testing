@@ -1,4 +1,4 @@
-name: React in JS
+name: Tests
 
 on:
   pull_request:
