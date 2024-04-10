@@ -18,6 +18,12 @@ export const BaseCard: Story = {
     description:
       "Make your React component async and await your data. Next.js supports both server and client data fetching.",
   },
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/GIyivL3AeBjiTc8zTtXzx5/Frontend-EOI?type=design&node-id=1-1891&mode=design&t=ZZG9mjhYElLEM0Fq-4",
+    },
+  },
 };
 
 export const WithImage: Story = {
@@ -25,7 +31,12 @@ export const WithImage: Story = {
     title: "Built-in Optimizations",
     description:
       "Automatic Image, Font, and Script Optimizations for improved UX and Core Web Vitals.",
-    image:
-      "https://nextjs.org/_next/image?url=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fnextjs%2Fspheres-light.png&w=640&q=100",
+    image: "https://hackmd.io/_uploads/ByQjwPVe0.png",
+  },
+  parameters: {
+    design: {
+      type: "figma",
+      url: "https://www.figma.com/file/GIyivL3AeBjiTc8zTtXzx5/Frontend-EOI?type=design&node-id=1-2182&mode=design&t=ZZG9mjhYElLEM0Fq-4",
+    },
   },
 };
