@@ -18,6 +18,17 @@
   }
 }
 
+@media (prefers-color-scheme: dark) {
+  .primary {
+    background-color: var(--color-gray-300);
+    color: var(--color-gray-1100);
+
+    &:hover {
+      background-color: var(--color-gray-400);
+    }
+  }
+}
+
 .secondary {
   background-color: var(--color-white);
   color: var(--color-gray-1100);
@@ -25,5 +36,17 @@
 
   &:hover {
     background-color: var(--color-gray-100);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .secondary {
+    background-color: var(--color-gray-1000);
+    color: var(--color-white);
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
+
+    &:hover {
+      background-color: var(--color-gray-900);
+    }
   }
 }
