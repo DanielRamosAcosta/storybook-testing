@@ -32,7 +32,7 @@ export const Normal: Story = {
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/file/GIyivL3AeBjiTc8zTtXzx5/Frontend-EOI?type=design&node-id=39-35&mode=design&t=sEmajI3fO61o4DjF-11",
+      url: "https://www.figma.com/file/GIyivL3AeBjiTc8zTtXzx5/Frontend-EOI?type=design&node-id=39-33&mode=design&t=sEmajI3fO61o4DjF-4",
     },
   },
 };
@@ -41,7 +41,7 @@ export const Focus = {
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/file/GIyivL3AeBjiTc8zTtXzx5/Frontend-EOI?type=design&node-id=39-35&mode=design&t=sEmajI3fO61o4DjF-11",
+      url: "https://www.figma.com/file/GIyivL3AeBjiTc8zTtXzx5/Frontend-EOI?type=design&node-id=39-31&mode=design&t=sEmajI3fO61o4DjF-4",
     },
   },
   play: async ({ canvasElement }) => {
@@ -56,7 +56,7 @@ export const Error: Story = {
   parameters: {
     design: {
       type: "figma",
-      url: "https://www.figma.com/file/GIyivL3AeBjiTc8zTtXzx5/Frontend-EOI?type=design&node-id=39-35&mode=design&t=sEmajI3fO61o4DjF-11",
+      url: "https://www.figma.com/file/GIyivL3AeBjiTc8zTtXzx5/Frontend-EOI?type=design&node-id=39-32&mode=design&t=sEmajI3fO61o4DjF-4",
     },
   },
   play: async (context) => {
