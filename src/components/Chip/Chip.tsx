@@ -1,12 +1,6 @@
 import styles from "./Chip.module.css";
 import classNames from "classnames";
-
-export const enum Color {
-  PURPLE = "purple",
-  GREEN = "green",
-  ORANGE = "orange",
-  BLUE = "blue",
-}
+import { ChipColor } from "./ChipColor.ts";
 
 export type ChipProps = {
   /**
@@ -17,10 +11,10 @@ export type ChipProps = {
    * Chip color.
    * @default "green"
    */
-  color?: Color;
+  color?: ChipColor;
 };
 
-export const Chip = ({ label, color = Color.GREEN }: ChipProps) => (
+export const Chip = ({ label, color = ChipColor.GREEN }: ChipProps) => (
   <div className={classNames(styles.base, styles[color])}>
     <span>{label}</span>
   </div>

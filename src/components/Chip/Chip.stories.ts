@@ -1,5 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Chip, Color } from "./Chip.tsx";
+import { Chip } from "./Chip.tsx";
+import { ChipColor } from "./ChipColor.ts";
 
 const meta = {
   title: "Layout/Chip",
@@ -12,10 +13,10 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const purple: Story = {
+export const Purple: Story = {
   args: {
     label: "Purple",
-    color: Color.PURPLE,
+    color: ChipColor.PURPLE,
   },
   parameters: {
     design: {
@@ -25,10 +26,10 @@ export const purple: Story = {
   },
 };
 
-export const green: Story = {
+export const Green: Story = {
   args: {
     label: "Green",
-    color: Color.GREEN,
+    color: ChipColor.GREEN,
   },
   parameters: {
     design: {
@@ -38,10 +39,10 @@ export const green: Story = {
   },
 };
 
-export const orange: Story = {
+export const Orange: Story = {
   args: {
     label: "Orange",
-    color: Color.ORANGE,
+    color: ChipColor.ORANGE,
   },
   parameters: {
     design: {
@@ -51,10 +52,10 @@ export const orange: Story = {
   },
 };
 
-export const blue: Story = {
+export const Blue: Story = {
   args: {
     label: "Orange",
-    color: Color.BLUE,
+    color: ChipColor.BLUE,
   },
   parameters: {
     design: {
