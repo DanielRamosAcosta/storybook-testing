@@ -3,19 +3,26 @@ import classNames from "classnames";
 
 export type CardProps = {
   /**
-   * Card title
+   * The title prop specifies the main title or heading of the card.
+   * It provides a concise description of the card's content.
    */
   title: string;
   /**
-   * Card long description text. Between 50 and 100 words.
+   * The description prop provides additional textual content to supplement the title.
+   * It offers more detailed information about the card's content.
    */
   description: string;
   /**
-   * Card thumbnail image URL
+   * The image prop is an optional property that allows the inclusion of an image within the card.
+   * It enhances visual appeal and provides context to the card's content.
    */
   image?: string;
 };
 
+/**
+ * Card component represents a styled container typically used for displaying content.
+ * It may contain a title, description, and optional image.
+ */
 export const Card = ({ title, description, image }: CardProps) => (
   <div className={classNames(styles.base)}>
     {image && <img src={image} alt={title} />}

@@ -3,15 +3,16 @@ import classNames from "classnames";
 
 export type ButtonProps = {
   /**
-   * Button title
+   * The title prop specifies the text content displayed on the button
    */
   title: string;
   /**
-   * Button type. Primary is darker, secondary is lighter
+   * The type prop determines the style variant of the button. It can be either "primary" or "secondary".
    */
   type?: "primary" | "secondary";
   /**
-   * Button click handler
+   * The onClick prop is a callback function triggered when the button is clicked.
+   * It performs a specified action or behavior.
    */
   onClick?: () => void;
 };

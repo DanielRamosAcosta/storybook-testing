@@ -2,6 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { userEvent, within } from "@storybook/testing-library";
 import { TextField, TextFieldProps } from "./TextField.tsx";
 import { useState } from "react";
+import { expect } from "@storybook/test";
 
 const ControlledTextField = ({
   ...props
@@ -60,11 +61,16 @@ export const Error: Story = {
     },
   },
   play: async (context) => {
+    const canvas = within(context.canvasElement);
     const user = userEvent.setup();
 
     await Focus.play(context);
 
     await user.keyboard("this is a wrong email");
     await user.click(document.body);
+
+    await expect(
+      canvas.getByText("Please enter a valid email address"),
+    ).toBeVisible();
   },
 };
