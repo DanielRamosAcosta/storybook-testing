@@ -2,6 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react";
 import { fn } from "@storybook/test";
 import { Button } from "./Button.tsx";
 
+// Button.stories.ts
 const meta = {
   title: "Form/Button",
   component: Button,
