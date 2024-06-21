@@ -10,7 +10,7 @@
 }
 
 .primary {
-  background-color: var(--color-gray-1000);
+  background-color: #eee;
   color: var(--color-white);
 
   &:hover {
